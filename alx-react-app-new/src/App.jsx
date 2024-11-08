@@ -1,16 +1,14 @@
 import React from 'react';
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import Counter from './components/Counter'; // Import the Counter component
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="App">
+      <h1>Simple Counter App</h1>
+      {/* Add the Counter component here */}
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
